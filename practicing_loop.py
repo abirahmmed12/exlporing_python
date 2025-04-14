@@ -5,6 +5,6 @@ my_list ={"name":"abir",
 
 print(len(my_list))
 
-for value in my_list:
-    print(value)
+for key, value in my_list.items():
+    print(key , value)
     
